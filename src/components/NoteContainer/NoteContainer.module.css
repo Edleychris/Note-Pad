@@ -1,0 +1,68 @@
+.notesContainer {
+	width: 50%;
+	font-size: 1.8rem;
+	height: 100%;
+    /* background-color: green; */
+    margin-top: 5px;
+}
+
+.header {
+    /* background-color: aqua; */
+	padding: 1rem 1.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+.header h2 {
+	color: #222;
+    font-size: 1.5rem;
+}
+button {
+	font-size: 1.8rem;
+	font-weight: 600;
+    color: white;
+    border: #aaa;
+    border-radius: 1rem;
+    margin: 12px 0.1px;
+    background: #444;
+	border: none;
+	cursor: pointer;
+}
+
+.notesHolder {
+	margin-top: 3.5rem;
+	display: flex;
+	flex-direction: column;
+    margin-left: 2px;
+	gap: 1rem;
+    background-color: #d227ad;
+}
+.note {
+	padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+}
+.note:hover {
+	background-color: #aaa;
+	color: #000;
+}
+.noteHeader {
+	display: flex;
+	justify-content: space-between;
+}
+.btnDelete {
+	color: red;
+    margin: 30px 2px;
+}
+.noteDetails {
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	font-size: 1.6rem;
+}
+small {
+	font-size: 1.4rem;
+	font-style: italic;
+	font-weight: 600;
+}
+.activeNote{
+  background-color: #444;
+  color: #f4f4f4;
+}

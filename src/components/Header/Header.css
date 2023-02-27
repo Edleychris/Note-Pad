@@ -1,0 +1,16 @@
+.head{
+    background-color: rgb(215, 50, 182);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 0.2rem;
+
+}
+.head p{
+    font-size: 1.1rem;
+    font-weight: 1rem;
+
+}
+.head h1{
+    margin-bottom: -20px;
+}
